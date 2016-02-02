@@ -27,4 +27,4 @@ print(tagged_words[1][1])
 # reading json file
 with open('data.json', 'r') as f:
      data = json.load(f)
-     print data[1][1]
+     print(data[1][1])
